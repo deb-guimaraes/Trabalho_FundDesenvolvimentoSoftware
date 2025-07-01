@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 245, 232);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+main {
+    display: grid;
+    align-items: center;
+
+    margin: 20px;
+    padding: 30px;
+    width: 500px;
+}
+
+h1 {
+    color: rgb(54, 99, 167);
+}
+
+button {
+    background-color: rgb(54, 99, 167);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+button:hover {
+    background-color: rgb(28, 55, 94);
+}
+
+table td {
+    padding: 10px;
+}
+
+.crochet {
+    height: 300px;
+}
+
+.bandeira {
+    width: 150px;
+}
+
+main > * {
+    padding: 15px;
+}
